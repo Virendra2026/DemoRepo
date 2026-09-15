@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-playwright-pom",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for SauceDemo using Page Object Model (POM)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:login": "npx playwright test tests/login.spec.js",
+    "test:cart": "npx playwright test tests/cart.spec.js",
+    "test:checkout": "npx playwright test tests/checkout.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "pom",
+    "saucedemo"
+  ],
+  "author": "Virendra",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  }
+}
