@@ -1,0 +1,17 @@
+{
+  "name": "demoblaze-playwright",
+  "version": "1.0.0",
+  "description": "Playwright POM framework for DemoBlaze web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:auth": "npx playwright test tests/auth.spec.js",
+    "test:product": "npx playwright test tests/product.spec.js",
+    "test:cart": "npx playwright test tests/cart.spec.js"
+  },
+  "author": "Virendra",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
